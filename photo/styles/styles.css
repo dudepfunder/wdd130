@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto&family=Roboto+Condensed:wght@300&family=Rock+Salt&display=swap');
+
+body{
+    font-family: "Roboto Condensed";
+}
+content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    font-size: 32px;
+    color: white;
+}
+nav a:hover {
+    background-color:#D4AC0D;
+    color: white;
+}
+nav a{
+    text-align: center;
+    color: white;
+    font-family: "IBM Plex Mono";
+    text-decoration: none;
+    padding: 70px;
+}
+header {
+    background-color: #396E94;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.about-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.me{
+    grid-column: 1;
+    height: 300px;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.about{
+    padding-right: 150px;
+}
+.page2{
+    display: grid;
+    grid-template-columns: 100px 150px 100px;
+    text-align: center;
+}
+.story{
+    height: 300px;
+    padding: 10px;
+    padding-left: 100px;
+    margin: 5px;
+    margin: 5px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 100px 150px 100px;
+    text-align: center;
+}
+.contentpics{
+    column-fill: balance;
+    height: 300px;
+    padding: 10px;
+    padding-left: 100px;
+    margin: 5px;
+    margin: 5px;
+}
+.salmon, .desolation, .grandcanyon{
+    margin: 100px 0;
+    float: 0;
+    font-size: 12px;
+}
+.salmon{
+    grid-column: 1;  
+}
+.desolation{
+    grid-column: 2;
+}
+.grandcanyon{
+    grid-column: 3;
+}
+.river-image{
+    height: 300px;
+    width: 400px;
+    justify-items: center;
+    border: 10px solid #396E94;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.river-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h5{
+    margin: 1;
+    font-size: 22px;
+    padding-left: 30px;
+    }
+footer{
+    background-color: #d2d0ba;
+    color: #396E94;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+}
+footer a{
+    color: #396E94;
+    text-decoration: none;
+}
+footer a:hover{
+    color: blue;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}

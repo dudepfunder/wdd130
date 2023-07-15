@@ -122,11 +122,11 @@ header {
     font-family: "IBM Plex Mono";
 }
 .contactinfo1{
-    padding-top: 40px;
+    padding-top: 70px;
     grid-column: 2;
     grid-row: 2;
     text-align: left;
-    font-size: 32px;
+    font-size: 30px;
     font-family: "Roboto";
     color: white;
 }
@@ -140,11 +140,11 @@ header {
     color: white;
 }
 .contactinfo2{
-    padding-top: 40px;
+    padding-top: 70px;
     grid-column: 2;
     grid-row: 3;
     text-align: left;
-    font-size: 32px;
+    font-size: 30px;
     font-family: "Roboto";
     color: white;
 }
@@ -158,11 +158,11 @@ header {
     color: white;
 }
 .contactinfo3{
-    padding-top: 40px;
+    padding-top: 70px;
     grid-column: 2;
     grid-row: 4;
     text-align: left;
-    font-size: 32px;
+    font-size: 30px;
     font-family: "Roboto";
     color: white;
 }
@@ -192,7 +192,6 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
 }
 h5{
-
     font-size: 22px;
     padding-left: 30px;
     }

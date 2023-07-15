@@ -168,7 +168,6 @@ header {
 }
 .salmon, .desolation, .grandcanyon{
     margin: 100px 0;
-    float: 0;
     font-size: 12px;
 }
 .salmon{
@@ -193,7 +192,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
 }
 h5{
-    margin: 1;
+
     font-size: 22px;
     padding-left: 30px;
     }
